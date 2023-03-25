@@ -1,9 +1,11 @@
 use serde::{Deserialize, Serialize};
 
+use crate::common::types::Int;
+
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UserRepositorySizeModel {
-    name: String,
-    url: String,
-    size: u32,
-    language: Option<String>,
+    pub name: String,
+    pub url: String,
+    pub size: Int,
+    pub language: Option<String>,
 }
