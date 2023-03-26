@@ -1,4 +1,3 @@
-pub use std::f32::consts::PI;
+pub use std::f64::consts::PI;
 
-pub type Int = u32;
-pub type Float = f32;
+pub type Number = f64;

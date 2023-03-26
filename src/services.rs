@@ -18,7 +18,7 @@ impl UserRepositoryService {
         let mut repos_list = self.gh.fetch_data(username).await;
 
         // sorting them
-        repos_list.sort_unstable_by_key(|r| Reverse(r.size));
+        // repos_list.sort_unstable_by_key(|r| Reverse(r.size));
         println!("{:#?}", repos_list);
     }
 }
