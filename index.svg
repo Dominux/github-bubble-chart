@@ -28,4 +28,8 @@
   </script>
 
   <circle cx="5" cy="5" r="4" />
+
+  <script>
+    document.querySelector("circle").style.fill = getColor()
+  <script>
 </svg>
